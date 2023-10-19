@@ -14,8 +14,8 @@ While this is highly useful, it does require some initial setup and verification
 
 1. Clone the project and navigate to the project folder:
 ```bash
-git clone [your-repository-link]
-cd [your-repository-name]
+git clone https://github.com/fjpulidop/dbt_greatexpectations_tutorial.git
+cd dbt_greatexpectations_tutorial
 ```
 
 2. Run the following Docker Compose command:
