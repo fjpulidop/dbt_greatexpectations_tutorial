@@ -1,0 +1,11 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: user
+      password: secret_password
+      port: 5432
+      dbname: mydatabase
+      schema: public

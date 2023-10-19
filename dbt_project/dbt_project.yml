@@ -1,0 +1,8 @@
+name: 'my_project'
+version: '1.0'
+config-version: 2
+
+profile: 'default'
+
+vars:
+  'dbt_date:time_zone': 'Europe/Madrid'

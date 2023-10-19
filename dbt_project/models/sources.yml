@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: users_info
+        columns:
+            - name: username
+              tests:
+                - dbt_expectations.expect_column_values_to_match_regex:
+                    regex: "[0-9]"
